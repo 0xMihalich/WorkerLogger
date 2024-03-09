@@ -18,7 +18,7 @@ def root_dir() -> str:
 
 
 class WorkerLogger(Logger):
-    """Класс логирования событий бота."""
+    """Класс логирования событий."""
 
     def __init__(self: "WorkerLogger",
                  name: str,
